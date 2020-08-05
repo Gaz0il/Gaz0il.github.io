@@ -9,6 +9,17 @@ body{
     flex-direction: row;
 
 }
+.profil{
+
+    margin-top: 100px;
+	
+	width: 210px;
+	border-top-left-radius: 50% ;
+	border-top-right-radius:  1% ;
+	border-bottom-left-radius: 50% ;
+	border-bottom-right-radius: 20%;
+
+}
 
 .flex_g
 {
