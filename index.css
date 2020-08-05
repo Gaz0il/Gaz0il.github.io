@@ -9,11 +9,9 @@ body{
     flex-direction: row;
 
 }
-p.profil{
-
+.profil{
     margin-top: 100px;
-	
-	width: 210px;
+    width: 210px;
 	border-top-left-radius: 50% ;
 	border-top-right-radius:  1% ;
 	border-bottom-left-radius: 50% ;
