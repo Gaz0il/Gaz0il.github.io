@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex_g
+{
+    display: flex;
+    flex-direction: column;
+}
