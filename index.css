@@ -26,14 +26,12 @@ body{
 	border-bottom-left-radius: 50% ;
     border-bottom-right-radius: 50%;
     opacity: 100%;
-    width:100px;
-    height:100px; 
-    background-position : center;
-    object-position: center;
-    
-   
+    width:200px;
+    height:200px; 
+    margin-left: 100px;
 
 }
+
 
 .flex_g
 {
