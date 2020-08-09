@@ -13,7 +13,7 @@ body{
 .all{
     display: flex;
     flex-direction: row;
-    opacity: 50%;
+    opacity: 100%;
 
 
 }
@@ -28,6 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    opacity: 100%;
    
 
 }
@@ -46,6 +47,7 @@ body{
     height: 800px;
     padding: 10px;
     margin: 80px;
+    opacity: 70%;
     
 }
 
@@ -65,6 +67,7 @@ body{
 .flex_d{
     display: flex;
     flex-direction: column;
+    opacity: 90%;
     
 }
 
