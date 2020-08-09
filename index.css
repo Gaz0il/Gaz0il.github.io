@@ -59,6 +59,7 @@ body{
     flex-direction: row;
 
 
+
 }
 
 .t_formation{
@@ -91,6 +92,7 @@ h2.title_left{
     padding:10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 .flex_left{
     margin-top: 20px;
