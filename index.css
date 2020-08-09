@@ -83,6 +83,7 @@ h2.title_left{
 .vector{
     margin: 10px;
     padding: 20px;
-    size: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
