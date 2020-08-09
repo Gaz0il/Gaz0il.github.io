@@ -26,8 +26,8 @@ body{
 	border-bottom-left-radius: 50% ;
     border-bottom-right-radius: 50%;
     opacity: 100%;
-    width:auto;
-    height:auto; 
+    width:100px;
+    height:100px; 
     background-position : center;
     object-position: center;
     
@@ -46,7 +46,7 @@ body{
     background-color:rgba(255, 255, 255, 0.815);
    
     width: 30%;
-    height: 800px;
+    height: 1000px;
     padding: 10px;
     margin: 80px;
     opacity: 70%;
@@ -91,9 +91,7 @@ h2.title_left{
 }
 .vector{
     margin: 10px;
-    padding: 20px;
-    max-width: 100%;
-    height: auto;
+    padding: 10px;
 }
 .flex_left{
     margin-top: 20px;
