@@ -57,9 +57,7 @@ body{
 .flex_loisir{
     display: flex;
     flex-direction: row;
-    padding:10px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 
 }
 
@@ -90,8 +88,9 @@ h2.title_left{
 
 }
 .vector{
-    margin: 10px;
-    padding: 10px;
+    padding:10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .flex_left{
     margin-top: 20px;
