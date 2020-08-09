@@ -1,21 +1,30 @@
 body{
     margin:0;
-    padding:10px;
+    
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Picture/josh-rose-trYl7JYATH0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+        
+
 }
 
 .all{
     display: flex;
     flex-direction: row;
+    opacity: 50%;
+
 
 }
 .profil{
     margin-top: 100px;
     width: 210px;
 	border-top-left-radius: 50% ;
-	border-top-right-radius:  1% ;
+	border-top-right-radius:  0% ;
 	border-bottom-left-radius: 50% ;
-	border-bottom-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+   
 
 }
 
@@ -23,4 +32,53 @@ body{
 {
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 0% ;
+	border-top-right-radius:  20% ;
+	border-bottom-left-radius: 0% ;
+    border-bottom-right-radius:20%;
+    background-color:rgba(255, 255, 255, 0.815);
+   
+    width: 30%;
+    height: 800px;
+    padding: 10px;
+    margin: 80px;
+    
 }
+
+.flex_loisir{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+
+}
+
+.t_formation{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+.flex_d{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form_formation{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2.title_left{
+    background-color: white;
+    margin:-10px;
+    text-align: center;
+
+}
+.vector{
+    margin: 10px;
+    padding: 20px;
+    size: 50px;
+}
+
