@@ -19,11 +19,12 @@ body{
 }
 .profil{
     margin-top: 50px;
-    width: 210px;
+
 	border-top-left-radius: 0% ;
 	border-top-right-radius:  50% ;
 	border-bottom-left-radius: 50% ;
     border-bottom-right-radius: 20%;
+    background-position: center;
     
    
 
