@@ -209,7 +209,7 @@ section .fas{
     font-size: 250%;
     text-transform: uppercase;
     border-bottom: 2px solid #c2a257;
-    width:100%;
+    
 
 
 }
@@ -252,10 +252,18 @@ h5{
     }
     .l-side{
         width: 100%;
+        margin:0;
+        padding:0;
     }
     .loisir{
         margin-top: 0;
+        margin-bottom: 2%;
     
+    }
+    .r-side{
+        width: 100%;
+        margin:0;
+        padding:0;
     }
 
 }
