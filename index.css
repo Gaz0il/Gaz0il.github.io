@@ -11,7 +11,9 @@ body{
 }
 
 /*..............................................................................................*/
-
+.titre-mobile{
+    display:none;
+}
 .titre{
     margin: 50px 0px 50px 0px;
 
@@ -105,9 +107,7 @@ body{
     
 }
 
-@media screen and (min-width: 920px) {
 
-    }
 
 /*..............................................................................................*/
 
@@ -226,7 +226,39 @@ h5{
 
 }
 
+@media screen and (max-width: 1280px) {
+    .titre-mobile{
+       display: flex;
+       flex-direction: column;
+       font-size:150%;
+       text-align: center;
+    }
+    .l-side .titre-mobile h3 span{
+        text-decoration: #ffffff underline ;
+        
+        
+    }
+    .l-side .titre-mobile h1 span{
+        color: #ffffff;
+        
+    }
 
+    .r-side .titre{
+        display:none;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .l-side{
+        width: 100%;
+    }
+    .loisir{
+        margin-top: 0;
+    
+    }
+
+}
 
 
 
