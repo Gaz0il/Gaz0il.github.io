@@ -267,19 +267,23 @@ h5{
 }
 
 @media screen and (max-width: 1280px) {
-    .titre-mobile{
-       display: flex;
+    .l-side .titre-mobile{
+        
+    display: flex;
        flex-direction: column;
-       font-size:150%;
+       font-size:3em;
        text-align: center;
+    
+    }
+    .l-side .titre-mobile h2{
+        margin:0;
     }
     .l-side .titre-mobile h2 span{
-        text-decoration: #ffffff underline ;
         
-        
-    }
-    .l-side .titre-mobile h1 span{
-        color: #ffffff;
+        color: #ffff;
+        display:row;
+        border-bottom:3px solid #ffff;
+        padding-bottom: 3px;
         
     }
 
@@ -287,26 +291,44 @@ h5{
         display:none;
     }
     body{
+        font-family: "Montserrat";
+        font-size:1em;
         display: flex;
         flex-direction: column;
+        margin: 10px;
     }
     .l-side{
         width: 100%;
         margin:0;
-        padding:0;
+        font-size:0.5em;
     }
     .loisir{
-        margin-top: 0;
-        margin-bottom: 2%;
+        margin-top: 10px;
+        margin-bottom:10px ;
+       
     
     }
+
     .r-side{
         width: 100%;
         margin:0;
         padding:0;
+    
     }
-    .l-t{
-        font-size: 120%;
+
+    .l-side .l-t{
+        margin-top:10px;
+        margin-bottom:10px;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    
     }
+    .l-tp .vector{
+        margin:auto;
+  
+    }
+
+
 
 }
