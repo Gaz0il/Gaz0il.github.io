@@ -229,14 +229,19 @@ section .e-date .fas{
 .reco {
     display:flex;
     flex-direction: row;
-    
 
 }
 .reco1{
-    margin:0% 30% 0% 0%;
+    padding-right: 20%;
 }
+
+
 .reco1 span{
-    font-weight: bold;
+    font-weight: 500;
+}
+.reco1 .name{
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .r-side section h3{
     font-size: 1.5em;
