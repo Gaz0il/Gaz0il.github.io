@@ -316,7 +316,7 @@ h5{
     
     }
 
-    .l-side .l-t{
+    .l-side .l-t,.l-text,.l-tp{
         margin-top:10px;
         margin-bottom:10px;
         padding-left: 10%;
