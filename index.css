@@ -229,6 +229,12 @@ section .e-date .fas{
  flex: 2;
 
 }
+.endreco{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
 .reco {
     display:flex;
     flex-direction: row;
