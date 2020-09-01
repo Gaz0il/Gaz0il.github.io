@@ -385,6 +385,10 @@ h5{
     section .fas{
         margin-right: 30px;
     }
+    .r-side section h3 .fas{
+        font-size:2.5rem;
+
+    }
 
 
 
