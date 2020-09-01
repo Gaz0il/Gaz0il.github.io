@@ -374,6 +374,10 @@ h5{
     .r-side section.endreco h3{
         font-size:2.5rem;
     }
+    .r-side section h3{
+        font-size:2.5rem;
+
+    }
     .reco1{
         padding-right: 5%;
         padding-left: 5%;
